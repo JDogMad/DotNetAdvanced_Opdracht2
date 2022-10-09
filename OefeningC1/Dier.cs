@@ -1,13 +1,10 @@
-﻿using Microsoft.VisualBasic.ApplicationServices;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace Oefening1 {
+namespace OefeningC1 {
     //Een abstracte klasse Dier heeft
     abstract class Dier {
         //een publieke eigenschap (property) Gewicht
@@ -30,16 +27,12 @@ namespace Oefening1 {
         //een methode Zegt.
         //Retourneert Uitspraak
         //De methode Zegt retourneert een string die het geluid weergeeft dat het dier maakt.
-        public virtual string Zegt(){
+        public virtual string Zegt() {
             return "Geluid: " + this.uitspraak;
         }
 
-        public virtual string Geluid() {
-            return "Geluidlink" + this.geluid;
-        }
-
         public override string ToString() {
-            return "Uw " + this.GetType().Name + " weegt " + gewicht + "kg. Deze dier doet " + uitspraak 
+            return "Uw " + this.GetType().Name + " weegt " + gewicht + "kg. Deze dier doet " + uitspraak
                 + " qua geluid, je kan dit ook beluisteren " + geluid;
         }
     }
@@ -77,7 +70,7 @@ namespace Oefening1 {
             geluid = @"C:\Users\thele\Downloads\PIG.wav";
         }
 
-        public override string Zegt(){
+        public override string Zegt() {
             return "Een varken zegt " + uitspraak;
         }
     }

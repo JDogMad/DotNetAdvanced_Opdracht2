@@ -59,5 +59,32 @@ namespace Oefening2.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream cow_moo2 {
+            get {
+                return ResourceManager.GetStream("cow_moo2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream PIG {
+            get {
+                return ResourceManager.GetStream("PIG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Snake_Strike_01 {
+            get {
+                return ResourceManager.GetStream("Snake_Strike_01", resourceCulture);
+            }
+        }
     }
 }

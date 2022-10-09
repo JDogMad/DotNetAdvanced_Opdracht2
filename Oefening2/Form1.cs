@@ -36,14 +36,11 @@ namespace Oefening2 {
 
 
             if (ckGeluidKoe.Checked) {
-                System.Media.SoundPlayer player = new SoundPlayer(@"C:\Users\thele\Downloads\cow-moo2.wav");
-                player.Play();
+                bertha.Geluid();
             } else if (ckGeluidSlang.Checked) {
-                System.Media.SoundPlayer player = new SoundPlayer(@"C:\Users\thele\Downloads\Snake Strike 01.wav");  
-                player.Play();
+                sacha.Geluid();
             } else if (ckGeluidVarken.Checked) {
-                System.Media.SoundPlayer player = new SoundPlayer(@"C:\Users\thele\Downloads\PIG.wav");
-                player.Play();
+                liva.Geluid();
             }
         }
     }
