@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening2", "Oefening2\Oefe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening3", "Oefening3\Oefening3.csproj", "{0E2CA541-89CE-4FA4-B345-C421CD8F3D35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OefeningC1", "OefeningC1\OefeningC1.csproj", "{F795F5A0-CC67-4D76-959D-F096A684F10A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening1", "OefeningC1\Oefening1.csproj", "{F795F5A0-CC67-4D76-959D-F096A684F10A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
